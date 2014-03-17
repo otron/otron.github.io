@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ferdigheter og Forandring</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script type="text/javascript" src="https://github.com/downloads/gnab/remark/remark-0.4.2.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured">
+      remark.on('ready', function () {
+        MathJax.Hub.Config({
+          tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+        });
+        MathJax.Hub.Queue(function() {
+          $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+            return(elem.SourceElement());
+          }).parent().addClass('has-jax');
+        });
+        MathJax.Hub.Configured();
+      });
+    </script>
+    <style type="text/css" media="screen">
+      code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Ferdigheter og Forandring
+_En gang var du dårlig i alt_
+
+Odd M. Trondrud
+---
+class: center, middle
+##$$12\times3$$
+##=
+"_Jeg er ikke noe flink i matematikk._"
+
+---
+class: center
+
+# Kjenn begrepene
+### 1. Matematikk `\(\neq\)` Aritmetikk
+### 2. Aritmetikk `\(\subset\)` Matematikk
+(det blir som å si at du ikke er noe flink i sport fordi du ikke kan kaste ball)	   
+
+---
+class: center, middle
+# Hvorfor er noen flinkere enn andre?
+Har vi ikke alle vært gjennom det samme pensum på barneskolen?
+
+---
+class: center, middle
+# Kan vi bli flinkere?
+(Ja, en gang var du ubrukelig i alt.)
+
+---
+class: center, middle
+# Hvordan blir man flinkere?
+(protip: tid)
+
+---
+class: center, middle
+# Er all tid lik?
+(Nei.)
+
+---
+class: center, middle
+# Så hva kan du gjøre?
+(Akkurat hva du vil.)
+
+---
+# Kilder/Inspirasjon:
+* The Role of Deliberate Practice in the Acquisition of Expert Performance,</br> _Ericsson, Krampe og Tesch-Romer_
+	* http://goo.gl/Jyso6m
+* The User Illusion: Cutting Consciousness Down to Size, </br> _Tor Nørretranders_
+	* http://www.amazon.com/The-User-Illusion-Cutting-Consciousness/dp/0140230122
+* Growing Evidence of Brain Plasticity,</br> TED-talk av Michael Merzenich 
+	* http://www.ted.com/talks/michael_merzenich_on_the_elastic_brain
+
+    </textarea>
+    <div id="slideshow" />
+  </body>
+</html>
